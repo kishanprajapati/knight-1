@@ -1,0 +1,23 @@
+table, td {
+    border: 3px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+td {
+    padding: 0px;
+}
+table {
+    margin: auto;
+}
+button {
+    background-color: white;
+    border: 0px;
+    padding: 30px;
+    margin: 0px;
+}
+.selected {
+    background-color: orange;
+}
+.moves {
+    background-color: blueviolet;
+}

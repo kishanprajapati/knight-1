@@ -1,0 +1,7 @@
+<table>
+  <tr *ngFor="let x of boxes">
+    <td *ngFor="let y of boxes">
+      <button (click)="selected(x,y)" [ngClass]="{selected: x==tr && y==td}" [class.moves]="possibilityCheck(x,y)">{{x+""+y}}</button>
+    </td>
+  </tr>
+</table>
